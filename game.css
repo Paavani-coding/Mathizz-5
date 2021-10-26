@@ -1,0 +1,38 @@
+#body_background{
+    background-image: url("bg-2.png");  
+}
+.login_div1,.login_div2,h4,h1,h5,input{
+    font-family: 'Bubblegum Sans';
+    font-size: 30px;
+}
+h1{
+    font-size: 60px !important;
+}
+#login,.login_div1,.login_div2,.number_div,#send{
+    width: 25%;
+}
+#body_background2{
+    background-image: url("bg-1.png");
+}
+input,span{
+    font-size: 20px !important;
+}
+#player1_name, #player2_name,span{
+    display: inline-block;
+	margin-left: 20px;
+    text-shadow: 2px 2px 5px lightcoral;
+}
+h1{
+    color: black;
+    text-shadow: 2px 2px 5px lightcoral;
+}
+.login_div1,.login_div2,.number_div{
+    box-shadow: 15px 13px 5px skyblue;
+}
+.question_div{
+    box-shadow: 15px 13px 5px lightcoral;
+}
+#login:hover,#send:hover{
+    width: 415px;
+    height: 45px;
+}

@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Mathizz</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="game.css">
+    </head>
+    <body id="body_background2">
+        <center>
+        <h1 id="heading2">Mathizz</h1>
+        <h3 id="player1_name"></h3><span id="player1_score"></span>
+        <h3 id="player2_name"></h3><span id="player2_score"></span>
+        <br><br>
+        <div class="btn btn-danger question_div">
+            <h5 id="player_question">Question Turn: </h5>
+            <h5 id="player_answer">Answer Turn: </h5>
+            <div id="output" class="col-lg-6"> </div>
+        </div>
+        <br>
+        <br>
+        <div class="btn btn-primary number_div">
+            <h5>Enter The First Number</h5>
+            <input type="number" placeholder="Number 1" id="number1" class="form-control">
+        </div>
+        <br><br>
+        <div class="btn btn-primary number_div">
+            <h5>Enter The Second Number</h5>
+            <input type="number" placeholder="Number 2" id="number2" class="form-control">
+        </div>
+        <br><br><br><br>
+        <button type="button" onclick="send()" id="send" class="btn btn-success">Send Question</button>
+        <br><br>
+    </center>
+    <script src="Game.js"></script>
+    </body>
+</html>
